@@ -1,5 +1,5 @@
 title = 'bmd-app'
-baseurl = "/"
+baseurl = "/bmd-app"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
