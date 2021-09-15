@@ -1,0 +1,24 @@
+{
+  "name": "bmd-app",
+  "version": "0.0.1",
+  "description": "BMD landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alkapivo/bmd-app.git"
+  },
+  "keywords": [
+    "javascript",
+    "hugojs",
+    "landing-page"
+  ],
+  "author": "devHorizon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alkapivo/bmd-app/issues"
+  },
+  "homepage": "https://github.com/Alkapivo/bmd-app#readme"
+}
