@@ -1,0 +1,40 @@
+
+<section class="section bmd-app-page-padding" id="about-us-readme">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 mt-4 pt-2">
+                <div class="position-relative">
+                    <!--<img class="img-fluid rounded" src="assets/layout/images/faq-two-img.jpg" alt="" />-->
+                    <span class="faq-ask text-uppercase rounded text-white bg-primary fs-16 fw-medium px-4 py-3">BMD-LOGO</span>
+                </div>
+            </div>
+            <div class="col-lg-6 offset-lg-1 mt-4 pt-2">
+                <div class="mb-4 pb-2">
+                    <h2 class="fs-3 fw-medium lh-1 text-dark mb-3">O nas</h2>
+                    <p class="text-muted">Budownictwo Mosty Drogi zostało założone w 2007 roku. Od początku w swojej działalnści wykorzystuje długoletnie doświadczenie swoich założycieli. Doświadczenie to zostało zdobyte podczas długoletniej pracy w innych podmiotach gospodarczych jak też administracji publicznej przy realizacji zadań w szeroko rozumianym budownictwie komunikacyjnym na terenie dzisiejszej małopolski.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" id="about-us-list">
+    <div class="container">
+        <div class="row justify-content-center mb-4">
+            <div class="col-lg-8 text-center">
+                <h2 class="fs-3 fw-medium lh-1 text-dark mb-3">PROFIL DZIAŁALNOŚCI</h2>
+                <p class="text-muted">TEKST DOLNY</p>
+            </div>
+        </div>
+        <div class="row">
+            <div *ngFor="let value of serviceList" class="col-lg-3 col-md-6 mt-4 pt-2">
+                <div class="card rounded service-box-two text-center py-4 px-3"
+                    [ngClass]=" { 'active': value.title === 'Dynamic Growth' }">
+                    <div class="card-body">
+                        <h5 class="service-title fs-18 my-4">{{value.title}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

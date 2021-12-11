@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top sticky bg-secondary" id="navbar" (window:scroll)="windowScroll()">
+    <div class="container">
+        <a routerLink="{{ HOME }}" class="navbar-brand">
+            <img src="assets/layout/images/logo-light.png" class="logo-light" alt="" height="22" />
+            <img src="assets/layout/images/logo-dark.png" class="logo-dark" alt="" height="22" />
+        </a>
+        <a href="javascript:void(0)" class="navbar-toggler" (click)="toggleMenu()" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggle-icon">
+                <i-feather name="menu"></i-feather>
+            </span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto navbar-center mt-lg-0 mt-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ HOME }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ ABOUT_US }}">O nas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SHOWCASE }}">Realizacje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ CONTACT }}">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>
+
+<footer class="footer bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <a routerLink="/layout-one-1">
+                    <img src="assets/layout/images/logo-light.png" alt="" height="22" />
+                </a>
+                <p class="mt-4">10.............................</p>
+                <p>11................... .   . . .</p>
+                <p>12..............    ....  ....</p>
+                <p>13....           .... .</p>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+<!--
+<app-style-switcher></app-style-switcher>
+-->
