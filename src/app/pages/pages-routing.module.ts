@@ -4,7 +4,6 @@ import { URL_HOME, URL_ABOUT_US, URL_SHOWCASE, URL_CONTACT } from '../app-routin
 import { ContactComponent } from './contact/contact.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
-import { IndexComponent } from './index/index.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
 
 const routes: Routes = [
@@ -28,10 +27,6 @@ const routes: Routes = [
 	{
 		path: URL_CONTACT,
 		component: ContactComponent
-	},
-	{
-		path: 'index',
-		component: IndexComponent
 	}
 
 ];

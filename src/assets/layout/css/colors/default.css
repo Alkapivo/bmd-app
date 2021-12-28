@@ -16,7 +16,7 @@
 .service-box-one a,
 .service-box-two .icon-box .service-icon,
 .accordion .accordion-item .accordion-header .accordion-button:before {
-  color: #6d62fd !important;
+  color: #ff0040 !important;
 }
 
 
@@ -45,20 +45,20 @@
 .accordion .accordion-item .accordion-collapse .accordion-body:before,
 .owl-theme .owl-dots .owl-dot.active span,
 .accordion .card-body:before {
-  background-color: #6d62fd !important;
+  background-color: #ff0040 !important;
 }
 
 /* border */
 .btn-primary,
 .btn-outline-primary,
 .nav-sticky .nav-btn {
-  border: 1px solid #6d62fd !important;
+  border: 1px solid #ff0040 !important;
 }
 
 /* border-color */
 .hero-one-1 .form-card form .form-control:focus,
 .form-control:focus {
-  border-color: #6d62fd !important;
+  border-color: #ff0040 !important;
 }
 
 /* rgba */
@@ -92,7 +92,7 @@
 
 /* gradient */
 .hero-one-5 .hero-one-5-overlay {
-  background: linear-gradient(90deg, #6d62fd 5%, #6d62fd 75%, rgba(255, 255, 255, 0.1) 50%);
+  background: linear-gradient(90deg, #ff0040 5%, #ff0040 75%, rgba(255, 255, 255, 0.1) 50%);
 }
 
 .hero-two-5:after {

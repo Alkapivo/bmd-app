@@ -6,7 +6,6 @@ import { ContactComponent } from './contact/contact.component';
 import { CountToModule } from 'angular-count-to';
 import { FeatherModule } from 'angular-feather';
 import { HomeComponent } from './home/home.component';
-import { IndexComponent } from './index/index.component';
 import { NgbAccordionModule, NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
@@ -20,7 +19,6 @@ import { NgImageSliderModule } from 'ng-image-slider';
 @NgModule({
 	declarations: [
 		ScrollspyDirective,
-		IndexComponent,
 		HomeComponent,
 		AboutUsComponent,
 		ShowcaseComponent,
@@ -42,7 +40,6 @@ import { NgImageSliderModule } from 'ng-image-slider';
 	],
 	exports: [
 		ScrollspyDirective,
-		IndexComponent,
 		HomeComponent,
 		AboutUsComponent,
 		ShowcaseComponent,
