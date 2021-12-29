@@ -32,7 +32,7 @@ export class AboutUsComponent implements OnInit {
 			"title": "Usługi sprzętowe"
 		},
 		{
-			"title": "Konstrukcja dróg, chodników, parkingów"
+			"title": "Budowa dróg, chodników, parkingów"
 		},
 		{
 			"title": "Budowa mostów, wiaduktów, przepustów"
